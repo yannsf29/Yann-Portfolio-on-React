@@ -1,3 +1,4 @@
+import {Link} from "react-scroll"
 import React from "react";
 import {
   FacebookShareButton,
@@ -20,7 +21,7 @@ const Footer = () => {
               <p>San Diego, CA</p>
             </div>
             <div className="d-flex">
-              <a href="tel:619-366-7343">+1(619)366-7343</a>
+              <a href="tel:619-366-7343">(619)366-7343</a>
             </div>
             <div className="d-flex">
               <p>Yann.crennsf@gmail.com</p>
@@ -29,18 +30,18 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
+                <Link smooth={true} to="home" offset={-110} className="footer-nav">Home</Link>
                 <br />
-                <a className="footer-nav">About me</a>
+                <Link smooth={true} to="about" offset={-110} className="footer-nav">About me</Link>
                 <br />
-                <a className="footer-nav">Services</a>
+                <Link smooth={true} to="services" offset={-110} className="footer-nav">Services</Link>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
+                <Link smooth={true} to="experience" offset={-110} className="footer-nav">Experience</Link>
                 <br />
-                <a className="footer-nav">Portfolio</a>
+                <Link smooth={true} to="skills" offset={-110} className="footer-nav">Skills</Link>
                 <br />
-                <a className="footer-nav">Contacts</a>
+                <Link smooth={true} to="contacts" offset={-110} className="footer-nav">Contacts</Link>
               </div>
             </div>
           </div>
