@@ -356,3 +356,21 @@ color: var(--primary-grey);
 .footer p {
   margin-bottom: 0;
 }
+
+
+/*-------- HEADER MAIN OFFER BUTTON ---------------*/
+.btn-main-offer {
+  border: 1px solid var(--primary-navy);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-navy);
+  color: var(--primary-light-grey);
+  transition:  .2s ease-in-out;
+}

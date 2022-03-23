@@ -60,20 +60,7 @@ const Footer = () => {
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
-              <RedditShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
-              <LinkedinShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
+             
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
