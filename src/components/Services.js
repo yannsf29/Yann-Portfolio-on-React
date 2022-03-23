@@ -30,7 +30,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
 
-              <h3>Facebook Ads SMM</h3>
+              <h3>Facebook Ads</h3>
               <p>Your potential clients well see your services or product on Facebook</p>
             </div>
           </div>

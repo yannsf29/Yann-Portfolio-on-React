@@ -15,7 +15,9 @@ const AboutMe = () => {
           <br></br>
           <br></br>
           <h1 className="about-heading">About Me</h1>
-          <p>
+          <br></br>
+          <br></br>
+          <p className="about-p">
             Full-stack web developer with strong analytical skills dedicated to
             building and optimizing creative web applications that provide
             intuitive user experiences. I am passionate about full-stack web
