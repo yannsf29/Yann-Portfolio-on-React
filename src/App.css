@@ -441,8 +441,10 @@ color: var(--primary-grey);
 
 .carousel .slide img {
   width: 10rem !important;
-  border-radius: 10%;
+  border-radius: 2%;
 }
+
+
 
 .carousel .slide {
   background: transparent !important;

@@ -21,6 +21,7 @@ const SkillsCarousel = () => {
         <div className="myCarousel">
             <br></br>
           <h2>Java Script</h2>
+         
         </div>
       </>
       <>
@@ -37,6 +38,14 @@ const SkillsCarousel = () => {
           <h2>React</h2>
         </div>
       </>
+      <>
+        <img src={image2} alt="" />
+        <div className="myCarousel">
+            <br></br>
+          <h2>Rails</h2>
+        </div>
+      </>
+      
     
     </Carousel>
   );
