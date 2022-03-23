@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+
 
 const Header = () => {
   return (
@@ -11,19 +11,7 @@ const Header = () => {
         <h1>Web Development and websites promotions</h1>
         <br></br>
         <br></br>
-        <Typed
-          className="typed-text"
-          strings={[
-            "Web design",
-            "Web development",
-            "Facebook Ads",
-            "Social media",
-            "Goole Adds",
-          ]}
-          typespeed={40}
-          backSpeed={60}
-          loop
-        />
+        
       </div>
     </div>
   );
