@@ -47,19 +47,19 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://www.facebook.com/yann.crenn.3/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
-              <TwitterShareButton
-                url={"https://www.youtube.com/8020coding"}
+              <LinkedinShareButton
+                url={"https://www.linkedin.com/in/yann-crenn-23812b230/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
+                <LinkedinIcon className="mx-3" size={36} />
+              </LinkedinShareButton>
              
             </div>
             <p className="pt-3 text-center">
