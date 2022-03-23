@@ -18,7 +18,7 @@ const Header = () => {
             "Web development",
             "Facebook Ads",
             "Social media",
-            "Goole Adds",
+            "Google Adds",
           ]}
           typespeed={40}
           backSpeed={60}
