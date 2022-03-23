@@ -61,6 +61,12 @@ nav ul li {
   height: 6rem !important;
 }
 
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+ }
+
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875 solid var(--primary-orange) !important;
 }
@@ -100,6 +106,15 @@ height: 90vh;
   font-size: 2rem;
   color: var(--primary-white);
   
+}
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+
+  }
 }
 
 
@@ -202,7 +217,7 @@ textarea.form-control {
 /* -----------------  About Me  ----------------------------- */
 
 .profile-img {
-  width:16rem;
+  width:20rem;
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--primary-dark);
@@ -235,7 +250,7 @@ text-align: center;
 }
 
 .services h1 {
-color: var(--primary-dark);
+color: var(--primary-white);
 text-transform: uppercase;
 }
 
@@ -245,12 +260,14 @@ text-transform: uppercase;
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  margin-top: 2rem;
 
 }
 
 .services .box:hover {
   background: var(--primary-navy);
   border-bottom: 0.3125rem solid var(--primary-dark);
+ 
 }
 
 /* -----------------  Experience ----------------------------- */
@@ -400,12 +417,14 @@ color: var(--primary-grey);
   padding-bottom: 4rem;
   margin-bottom: 0;
   width: 100%;
+  
 }
 
 .testimonials h1 {
   color: var(--primary-orange);
   padding: 3rem 0;
   text-transform: uppercase;
+  
 }
 
 .testimonials-content {
@@ -413,6 +432,7 @@ color: var(--primary-grey);
   max-width: 53.125rem;
   margin: 0 auto 1rem auto;
   background: var(--primary-transparent-black); 
+  
 }
 
 .myCarousel {
@@ -427,6 +447,7 @@ color: var(--primary-grey);
   padding-left: 5%;
   padding-right: 5%;
   height: 17.875rem;
+
 }
 
 .myCarousel h3 {
@@ -437,11 +458,13 @@ color: var(--primary-grey);
 
 .myCarousel p {
   color: var(--primary-grey);
+
 }
 
 .carousel .slide img {
   width: 10rem !important;
   border-radius: 2%;
+  
 }
 
 
@@ -450,9 +473,26 @@ color: var(--primary-grey);
   background: transparent !important;
   height: 100% !important;
   padding-top: 2rem;
+ 
 }
 
 .carousel-root {
   margin: auto !important;
-  margin-top: 3% !important;
+  margin-top: 0% !important;
 }
+
+/*---------------- MEDIA -----------------------*/
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
